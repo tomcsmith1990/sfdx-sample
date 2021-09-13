@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Author__c": "Gearset",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "0015e00000CKI0EAAX"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{recordId}",
+                "Days": "5"
+            },
+            "ipMethod": "gearset_getWeatherForecast",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "gearsetWeather.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "gearsetWeather/Gearset/1/1625158094273",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "teamWeather/VU/2/1625134130037",
+    "%vlocity_namespace%__SampleData__c": "{\"Weather\":[{\"predictability\":75,\"visibility\":7.837044162093374,\"humidity\":69,\"air_pressure\":1011.5,\"wind_direction\":274.967643380872,\"wind_speed\":4.267621237339272,\"the_temp\":28.685000000000002,\"max_temp\":27.945,\"min_temp\":21.255000000000003,\"applicable_date\":\"2021-07-01\",\"created\":\"2021-07-01T15:32:43.967708Z\",\"wind_direction_compass\":\"W\",\"weather_state_abbr\":\"lr\",\"weather_state_name\":\"Light Rain\",\"id\":5359907575431168},{\"predictability\":75,\"visibility\":11.830286129006602,\"humidity\":77,\"air_pressure\":1007,\"wind_direction\":311.5121584169385,\"wind_speed\":5.338898785768446,\"the_temp\":24.02,\"max_temp\":25.015,\"min_temp\":19.9,\"applicable_date\":\"2021-07-02\",\"created\":\"2021-07-01T15:32:46.668972Z\",\"wind_direction_compass\":\"NW\",\"weather_state_abbr\":\"lr\",\"weather_state_name\":\"Light Rain\",\"id\":6403251265077248},{\"predictability\":75,\"visibility\":10.808130517776187,\"humidity\":73,\"air_pressure\":1008.5,\"wind_direction\":45.50000000000001,\"wind_speed\":6.187604417561442,\"the_temp\":20.905,\"max_temp\":20.4,\"min_temp\":16.46,\"applicable_date\":\"2021-07-03\",\"created\":\"2021-07-01T15:32:49.715700Z\",\"wind_direction_compass\":\"NE\",\"weather_state_abbr\":\"lr\",\"weather_state_name\":\"Light Rain\",\"id\":5665481613639680},{\"predictability\":73,\"visibility\":9.351636443171877,\"humidity\":60,\"air_pressure\":1012,\"wind_direction\":237.6189691299653,\"wind_speed\":4.066974955916117,\"the_temp\":24.365000000000002,\"max_temp\":24.855,\"min_temp\":17.64,\"applicable_date\":\"2021-07-04\",\"created\":\"2021-07-01T15:32:52.698389Z\",\"wind_direction_compass\":\"WSW\",\"weather_state_abbr\":\"s\",\"weather_state_name\":\"Showers\",\"id\":4785540156096512},{\"predictability\":73,\"visibility\":13.646554123916328,\"humidity\":57,\"air_pressure\":1015.5,\"wind_direction\":188.61781152467665,\"wind_speed\":5.451070102804953,\"the_temp\":27.875,\"max_temp\":27.145,\"min_temp\":19.775,\"applicable_date\":\"2021-07-05\",\"created\":\"2021-07-01T15:32:55.669609Z\",\"wind_direction_compass\":\"S\",\"weather_state_abbr\":\"s\",\"weather_state_name\":\"Showers\",\"id\":5647941436964864},{\"predictability\":73,\"visibility\":9.999726596675416,\"humidity\":54,\"air_pressure\":1012,\"wind_direction\":231.49999999999997,\"wind_speed\":6.320240793764416,\"the_temp\":33.1,\"max_temp\":32.735,\"min_temp\":22,\"applicable_date\":\"2021-07-06\",\"created\":\"2021-07-01T15:32:58.592375Z\",\"wind_direction_compass\":\"SW\",\"weather_state_abbr\":\"s\",\"weather_state_name\":\"Showers\",\"id\":5735014114263040}],\"City\":\"New York\"}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "gearsetWeather",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/gearsetWeather"
+}
